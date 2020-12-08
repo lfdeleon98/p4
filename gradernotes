@@ -1,0 +1,6 @@
+1) I wrote all of it
+2) I believe it works
+3) What happens if i see echo hi >|
+4) What heppsn if I see sort < foo << EoF
+5) What my shell does in a $ error
+6) If I delete my temp file for <<
