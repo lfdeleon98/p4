@@ -1,5 +1,5 @@
 # P2
-A CentOS 7 shell that handles a variety of commands that can be found on a regular UNIX shell.
+A basic UNIX shell that handles a variety of commands that can be found on a regular UNIX shell.
 ## How It Works
 I created a **getword()** that parses each letter from a file looking for white spaces or EOF. It returns the number of characters per line before hitting EOF. It also separates metacharacters so that they can be used in the **parse()** and **main()** later. **Parse()** sets up metacharacter flags so that these metacharacters can do the desired operations. **Main()** executes forking, multiple vertical pipelining, I/O redirection, and error checking.
 ## The Metacharacters and Commands
